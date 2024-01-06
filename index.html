@@ -14,12 +14,19 @@
         <img src="assets/gold-crab-icon.png" alt="" id="icon">
         <h5>Food</h5>
     </div>
+    <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </a>
     <div id="container2">
+    <div class="ul">
     <div class="box"><h4 id="home">Home</h4></div>   
     <div class="box"><h4 id="api">API</h4></div>
     <div class="box" id="cartFrame">
         <img src="assets/cart.png" alt="" id="cart">
         <h4 id="cartText">Cart</h4>
+    </div>
     </div>
     </div>
  </div>
@@ -36,20 +43,30 @@
     </div>
 </div>
 <br>
-<div><img src="assets/bg 1.png" alt="" id="bg">
+<div><img src="assets/bgimage 1.png" alt="" id="bg">
 <div id="randimg">
+   
 
 </div>
+<div id="dialogBox">
+    <dialog id="dialogId">
+        <div id="innerText"></div>
+        <form id="myForm">
+            <button type="submit" id="btn">OK</button>
+        </form> 
+    </dialog>
+</div>
+
 </div>
 <br>
-
-<h2 id="Categories">Categories</h2>
+<div id="cat">
+<h2 id="Categories">Categories:<h2 id="innertext"></h2></div>
 <br>
  <div id="blog">
  
  </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script><!--Axios libary link to use axios-->
 <script src="vanilla.js"></script>
 </body>
 </html>
